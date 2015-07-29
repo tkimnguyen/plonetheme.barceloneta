@@ -13,3 +13,10 @@ After executing this commands you can run grunt to watch the changes::
 
 This will make sure that the many .less files are compiled to .css on the fly
 and then served up from the theme. See rules.xml for the relevant Diazo rules.
+
+Notes
+-----
+
+- You may want to enable Development Mode in the Site Setup -> Resource Registries to see your changes.
+
+- If you want to modify plonetheme.barceloneta LESS you need to run `grunt less` or `grunt watch` on the plonetheme.barceloneta src folder
